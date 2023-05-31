@@ -1,0 +1,135 @@
+.top {
+    height: 80px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+
+
+        
+.top__container {
+    display:flex;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+nav {
+    width: 519px;
+    display: flex;
+    align-items: center;
+}
+
+.webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: bold;
+    line-height: var(--lineweight-normal);
+    color: var(--color-azul);
+}
+
+.top__navigation {
+    display: flex;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 93px;
+    width: 280px;
+    position: relative;
+    gap: 50px;
+}
+
+.top__navigation li {
+    flex-basis: calc((100% - 100px) / 3);
+}
+
+.nav--estudio::after {
+    background-color: var(--color-azul);
+    width: 53.75px;
+    height: 4px;
+    content: "";
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    top: 46px;
+}
+
+.navigation--portafolio::after {
+    background-color: var(--color-azul);
+    width: 70px;
+    height: 4px;
+    content: "";
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    top: 46px;
+}
+
+.navigation--portafolio {
+    color: var(--color-azul)
+}
+
+.nav--estudio {
+    color: var(--color-azul);
+}
+
+.top__navigation a {
+    font-weight: 500;
+    font-style: medium;
+    line-height: var(--lineweight-normal);
+}
+
+.top__navigation a:hover,
+.top__navigation a:focus {
+    color: var(--color-azul);
+    font-weight: 500;
+    line-height: var(--lineweight-normal);
+}
+
+.top__contact {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 340px;
+    height: 16px;
+    margin: 0px 0px 0px 344px;
+    padding: 0px 0px;
+}
+
+.top__contact li {
+    flex-basis: calc((100% - 30px) / 2);
+}
+
+.top__contact a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--lineweight-normal);
+    color: var(--color-gris);
+    fill: var(--color-gris);
+}
+
+.contact__email--icon {
+    width: 20px;
+    height: 16px;   
+    stroke-width: 0;
+    align-items: center;
+}       
+
+.contact__celphone--icon {
+    width: 16px;
+    height: 16px;
+    stroke-width: 0;
+    align-items: center;
+}
+
+.top__contact a:hover,
+.top__contact a:focus {
+    color: var(--color-azul);
+    fill: var(--color-azul);
+}
+
+}

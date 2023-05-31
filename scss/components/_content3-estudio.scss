@@ -1,0 +1,74 @@
+
+.content3 {
+    background-color: var(--color-behindourteam);
+    padding: 47px 0px;
+    margin: 0 auto;
+
+    .content3__container {
+        margin: 0 auto;
+        width: 1200px;
+    }
+    
+    .content3__cards {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        gap: 30px;
+    }
+    
+    .card__info {
+        width: 270px;
+        height: 428px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+        background-color: var(--color-hueso);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        flex-basis: calc((100% - 90px) / 4);
+    }
+    
+    .card__info--name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.12;
+        margin-bottom: 10px;
+    }
+    
+    .card__info--profession {
+        margin-top: 0px;
+        font-size: 16px;
+        color: var(--color-gris);
+        line-height: 1.12;
+    }
+    
+    .socialmedia__container {
+        margin: 0 auto;
+        padding: 0px;
+    }
+    
+    .svg__list {
+        display: flex;
+        width: 206px;
+        gap: 10px;
+        padding: 0px;
+    }
+    
+    .link-icon  {
+        width: 44px;
+        height: 44px;
+        stroke-width: 0;
+        fill: var(--color-linkitems);
+        flex-basis: calc((100% - 30px) / 4);
+    }
+    
+    .link-icon:hover,
+    .link-icon:focus {
+        fill: var(--color-hueso);
+        background-color: var(--color-azul);
+        border-radius: 100%;
+        cursor: pointer;
+    }
+}
+
