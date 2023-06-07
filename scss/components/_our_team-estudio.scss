@@ -1,15 +1,15 @@
 
-.content3 {
+.our_team {
     background-color: var(--color-behindourteam);
     padding: 47px 0px;
     margin: 0 auto;
-
-    .content3__container {
+}
+    .our_team__container {
         margin: 0 auto;
         width: 1200px;
     }
     
-    .content3__cards {
+    .our_team__cards {
         display: flex;
         margin: 0px;
         padding: 0px;
@@ -70,5 +70,20 @@
         border-radius: 100%;
         cursor: pointer;
     }
-}
 
+@media screen and (max-width: 524px) {
+    .our_team {
+        width: 523px;
+    }
+    .our_team__container {
+        width: 523px;
+    }
+    .our_team__cards {
+        width: 523px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card__info img {
+        width: 100%;
+    }
+}

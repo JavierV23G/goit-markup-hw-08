@@ -1,0 +1,92 @@
+.features {
+    padding: 47px 0px;
+    margin: 0 auto;
+} 
+    .features__cards {
+        display: flex;
+        margin: 0 auto;
+        width: 1200px;
+        padding: 0px;
+        gap: 30px;
+    }
+    
+    .features__card--title {
+        font-weight: 700;
+        line-height: var(--lineweight-normal);
+    }
+    
+    .features__card--text {
+        color: var(--color-gris);
+        line-height: var(--lineweight-normal);
+    }
+    
+    .features__card {
+        width: 270px;
+        flex-basis: calc((100% - 90px) / 4);
+        margin:0px
+    }
+    
+    .features__text--svg {
+        background-color: var(--color-behindourteam) ;
+        width: 100%;
+        height: 120px;
+    }
+    
+    .features__text--svg > use {
+        transform: translateX(100px) translateY(20px);
+    }
+
+
+
+@media screen and (max-width: 527.98px) {
+    .features__cards {
+        flex-direction: column;
+        width: 450px;
+    }
+    .features__card {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .features__text--svg {
+        width: 100%;
+    }
+    .features__text--svg use {
+        transform: translateX(190px) translateY(20px);
+    }
+    .features__card--text {
+        width: 100%;
+        text-align: center;
+    }
+    .features__card--title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+// @media screen and (max-width:528.98px) {
+//     .features {
+//         width: 768.98px;
+//     } 
+//     .features__cards {
+//         width: 738px;
+//         height: 507px;
+//         flex-wrap: wrap;
+//         gap: 30px;
+//     }
+//     .features__card {
+//         width: 354px;
+//         flex-basis: auto;
+//     }
+//     .features__text--svg {
+//         width: 100%;
+//     }
+//     .features__text--svg use {
+//         transform: translateX(145px) translateY(20px);
+//     }
+//     .features__card--text {
+//         width: 100%;
+//     }
+//     .features__card--title {
+//         width: 100%;
+//     }
+// }

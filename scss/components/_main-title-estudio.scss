@@ -5,15 +5,18 @@
     background-position: center;
     padding: 47px 0px;
     margin: 0 auto;
-
+} 
 
             
 .main__title--container {
     display: flex;
     flex-direction: column;
     height: 506px;
+    width: 696px;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -21,6 +24,7 @@ h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    letter-spacing: 0.06em;
 }
 
 /* MODAL STYLE */
@@ -32,7 +36,7 @@ h1 {
     font-size: 16px;
     line-height: 1.8;
     cursor: pointer;
-    width: 261px;
+    width: 200px;
     height: 50px;
     border: none;
     border-radius: 4px;
@@ -103,9 +107,11 @@ h1 {
 }
 
 .label__name {
+    display: flex;
     color: var(--color-gris);
     font-weight: 400;
     font-size: 12px;
+    justify-content: left;
 }
 
 .label__conditions {
@@ -116,14 +122,14 @@ h1 {
     width: 400px;
     height: 24px;
     position: relative;
-    left: 50px;
+    left: 30px;
     letter-spacing: 0.03em;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .modal__form--checkbox {
     position: absolute;
-    left: 70px;
+    left: 60px;
     bottom: 112px;
     width: 16px;
     height: 15px;
@@ -189,7 +195,7 @@ h1 {
 
 .modal__form-input:hover,
 .modal__form-input:focus {
-    border-color: var(--color-azul);
+    border: 2px solid var(--color-azul);
 }
 
 .modal__form-input:hover+svg use,
@@ -201,4 +207,46 @@ textarea:hover,
 textarea:focus {
     border: 1px solid var(--color-azul)
 }
+
+@media screen and (max-width: 768.98px) {
+    .main__title--container {
+        width: 360px;
+    }
+    .label__conditions {
+        margin-top: 30px;
+        left: 10px;
+    }
+    .modal__form--checkbox {
+        left: 45px;
+        bottom: 120px
+    }
+    .submit__modal {
+        left: 150px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .main__title {
+        width: 523px;
+    }
+    .main__title--container {
+        width: 360px;
+    }
+    .label__conditions {
+        margin-top: 20px;
+        left: 10px;
+    }
+    .modal__form--checkbox {
+        left: 45px;
+        bottom: 105px
+    }
+    .submit__modal {
+        left: 150px;
+    }
+    h1 {
+        font-size: 26px;
+    }
 }

@@ -1,21 +1,19 @@
-.content2__container {
+.what_we_do__container {
     width: 1200px;
     margin: 0 auto;
-
-
-            
-.content2__pictures {
+} 
+.what_we_do__pictures {
     display: flex;
     margin: 0px;
     padding: 0px;
     gap: 30px;
 }
 
-.content2__picture--element {
+.what_we_do__picture--element {
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.content2__textcontainer li {
+.what_we_do__textcontainer li {
     background-color: #2F303ACC;
     width: 373px;
     height: 70px;
@@ -27,7 +25,7 @@
     bottom: 73.3px;
 }
 
-.content2__textdescription {
+.what_we_do__textdescription {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -41,4 +39,18 @@
     height: 16px;
 }
 
+
+@media screen and (max-width: 523.98px) {
+    .what_we_do__container,
+    .what_we_do h2 {
+        display: none;
+    }
 }
+
+@media screen and (max-width: 768.98px) {
+    .what_we_do__container,
+    .what_we_do h2 {
+        display: none;
+    }
+}
+
