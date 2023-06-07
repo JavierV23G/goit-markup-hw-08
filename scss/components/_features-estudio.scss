@@ -38,7 +38,7 @@
 
 
 
-@media screen and (max-width: 527.98px) {
+@media screen and (max-width: 480px) {
     .features__cards {
         flex-direction: column;
         width: 450px;
@@ -62,31 +62,3 @@
         text-align: center;
     }
 }
-
-// @media screen and (max-width:528.98px) {
-//     .features {
-//         width: 768.98px;
-//     } 
-//     .features__cards {
-//         width: 738px;
-//         height: 507px;
-//         flex-wrap: wrap;
-//         gap: 30px;
-//     }
-//     .features__card {
-//         width: 354px;
-//         flex-basis: auto;
-//     }
-//     .features__text--svg {
-//         width: 100%;
-//     }
-//     .features__text--svg use {
-//         transform: translateX(145px) translateY(20px);
-//     }
-//     .features__card--text {
-//         width: 100%;
-//     }
-//     .features__card--title {
-//         width: 100%;
-//     }
-// }

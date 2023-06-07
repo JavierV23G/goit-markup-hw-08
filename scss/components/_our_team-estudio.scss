@@ -71,15 +71,15 @@
         cursor: pointer;
     }
 
-@media screen and (max-width: 524px) {
+@media screen and (max-width: 480px) {
     .our_team {
-        width: 523px;
+        width: 480px;
     }
     .our_team__container {
-        width: 523px;
+        width: 100%;
     }
     .our_team__cards {
-        width: 523px;
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }

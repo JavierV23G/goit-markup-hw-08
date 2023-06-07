@@ -14,6 +14,7 @@
     display: flex;
     gap: 30px;
     padding: 0px;
+    margin: 0px;
 }
 
 .regular_customers__customer {
@@ -44,9 +45,9 @@
     fill: var(--color-azul);
 }
 
-@media screen and (max-width: 524px) {
+@media screen and (max-width: 480px) {
     .regular_customers__container {
-        width: 523px;
+        width: 480px;
     }
     .regular_customers__customerslist {
         flex-wrap: wrap;
