@@ -124,7 +124,7 @@ h1 {
     position: relative;
     left: 30px;
     letter-spacing: 0.03em;
-    margin-top: 35px;
+    margin: 20px 0px 30px 0px;
 }
 
 .modal__form--checkbox {
@@ -169,9 +169,9 @@ h1 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    position: absolute;
-    left: 164px;
-    top: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .close__modal:hover, 
@@ -238,13 +238,14 @@ textarea:focus {
     .label__conditions {
         margin-top: 20px;
         left: 10px;
+        width: 100%;
     }
     .modal__form--checkbox {
         left: 45px;
         bottom: 105px
     }
     .submit__modal {
-        left: 150px;
+        
     }
     h1 {
         font-size: 26px;
