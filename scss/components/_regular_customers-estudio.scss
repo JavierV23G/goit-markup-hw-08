@@ -46,8 +46,11 @@
 }
 
 @media screen and (max-width: 480px) {
-    .regular_customers__container {
+    .regular_customers {
         width: 480px;
+    }
+    .regular_customers__container {
+        width: 100%;
     }
     .regular_customers__customerslist {
         flex-wrap: wrap;
