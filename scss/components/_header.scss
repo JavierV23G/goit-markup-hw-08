@@ -5,7 +5,8 @@
     align-items: center;
     display: flex;
     border-bottom: 1px solid #ECECEC;
-
+    width: 1600px;
+}
 
         
 .top__container {
@@ -132,4 +133,15 @@ nav {
     fill: var(--color-azul);
 }
 
+@media screen and (max-width: 480px) {
+    .top {
+        width: 480px;
+    }
+    nav {
+        width: 139px;
+    }
+    .top__navigation,
+    .top__contact {
+        display: none;
+    }
 }
