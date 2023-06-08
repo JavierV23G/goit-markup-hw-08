@@ -36,7 +36,7 @@ nav {
     display: flex;
     padding: 0px 0px;
     margin: 0px 0px 0px 93px;
-    width: 280px;
+    width: 300px;
     position: relative;
     gap: 50px;
 }
@@ -91,10 +91,9 @@ nav {
 .top__contact {
     display: flex;
     gap: 30px;
-    align-items: center;
     width: 340px;
     height: 16px;
-    margin: 0px 0px 0px 344px;
+    margin: 0px 0px 0px 340px;
     padding: 0px 0px;
 }
 
@@ -104,7 +103,6 @@ nav {
 
 .top__contact a {
     display: flex;
-    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: var(--lineweight-normal);
@@ -132,9 +130,12 @@ nav {
     fill: var(--color-azul);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .top {
         width: 480px;
+    }
+    #main__logo {
+        font-size: 24px;
     }
     nav {
         width: 139px;
@@ -142,5 +143,38 @@ nav {
     .top__navigation,
     .top__contact {
         display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .top {
+        width: 768px;
+    }
+    #main__logo {
+        font-size: 24px;
+    }
+    nav {
+        justify-content: space-between;
+        width: 500px;
+    }
+    .top__container {
+        width: 768px;
+        justify-content: space-between;
+    }
+    .top__navigation {
+        margin: 0;
+    }
+    .top__contact {
+        margin: 0;
+        flex-direction: column;
+        width: 150px;
+        height: 38px;
+        justify-content: space-between;
+        gap: 0px;
+        align-items: left;
+    }
+    .contact__celphone--icon {
+        position: relative;
+        align-items: left;
     }
 }
