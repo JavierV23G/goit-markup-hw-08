@@ -150,7 +150,7 @@
     color: var(--color-azul);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .footpage {
         width: 480px;
     }
@@ -195,5 +195,56 @@
     .footpage__address,
     .footpage__contact {
         line-height: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .footpage {
+        width: 768px;
+        padding: 60px 76px;
+    }
+    .footpage__container {
+        width: 738px;
+        flex-wrap: wrap;
+    }
+    .footpage__generalinfo {
+        margin: 0px;
+        text-align: center;
+        width: 232px;
+        height: 155px;
+        justify-content: center;
+        #main__logo--footer {
+            font-size: 24px;
+        }
+        .footpage__address,
+        .footpage__contact {
+        line-height: none;
+    }
+    }
+    .footpage__find-us {
+        margin: 0px 0px 0px 178px;
+        text-align: center;
+        height: 80px;
+
+        .footpage__social-container {
+            margin: 0px;
+        }
+    }
+    .footpage__subscription {
+        margin: 54px 83px 0px 83px;
+        width: 450px;
+        height: 156px;
+        justify-content: center;
+        text-align: center;
+
+        .subscription__email-box {
+            display: block;
+            margin: 20px 0px;
+            width: 450px;
+        }
+        .subscription__submit-logo {
+            left: -58px;
+            bottom: -6px;
+        }
     }
 }
