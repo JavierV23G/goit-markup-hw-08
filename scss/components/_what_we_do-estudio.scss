@@ -43,17 +43,8 @@
     height: 16px;
 }
 
-
-@media screen and (max-width: 480px) {
-    .what_we_do__container,
-    .what_we_do h2 {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    .what_we_do__container,
-    .what_we_do h2 {
+    .what_we_do {
         display: none;
     }
 }

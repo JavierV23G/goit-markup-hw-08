@@ -206,9 +206,33 @@ textarea:focus {
     border: 1px solid var(--color-azul)
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .main__title {
         width: 480px;
+    }
+    .main__title--container {
+        width: 360px;
+    }
+    .label__conditions {
+        margin-top: 20px;
+        left: 10px;
+        width: 100%;
+    }
+    .modal__form--checkbox {
+        left: 45px;
+        bottom: 105px
+    }
+    h1 {
+        font-size: 26px;
+    }
+    .modal__form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main__title {
+        width: 768px;
     }
     .main__title--container {
         width: 360px;
