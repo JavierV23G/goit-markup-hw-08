@@ -10,11 +10,7 @@
     display: flex;
     margin: 0px;
     padding: 0px;
-    gap: 30px;
-}
-
-.what_we_do__picture--element {
-    flex-basis: calc((100% - 60px) / 3);
+    justify-content: space-between;
 }
 
 .what_we_do__textcontainer li {
@@ -48,4 +44,6 @@
         display: none;
     }
 }
+
+@media screen and )(max-width: 1200px)
 

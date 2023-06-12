@@ -69,7 +69,7 @@
         cursor: pointer;
     }
 
-    @media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .our_team {
         width: 480px;
     }
@@ -115,5 +115,43 @@
     .card__info img {
         width: 100%;
         height: 374px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 975px) {
+    .our_team {
+        width: 100%;
+        padding: 30px;
+    }
+    .our_team__container {
+        width: 700px;
+    }
+    .our_team__cards {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .card__info:nth-child(-n + 2) {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 975px) and (max-width: 1200px) {
+
+    @media screen and (max-width: 1139px) {
+        .our_team {
+            width: 100%;
+            padding: 30px;
+        }
+        .our_team__container {
+            width: 100%;
+        }
+        .our_team__cards {
+            width: 800px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .card__info:nth-child(-n + 2) {
+            margin-bottom: 30px;
+        }
     }
 }

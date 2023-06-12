@@ -100,3 +100,50 @@
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 975px) {
+    .regular_customers {
+        width: 100%;
+    }
+    .regular_customers__container {
+        width: 738px;
+    }
+    .regular_customers__customerslist {
+        flex-wrap: wrap;
+    }
+    .regular_customers__customer {
+        width: 226px;
+        height: 92px;
+    }
+    .regular_customers__customer:nth-child(-n + 3) {
+        margin-bottom: 30px;
+    }
+    .regular_customers__customerlogo  {
+        width: 100%;
+        height: 100%;
+    }
+    .regular_customers__customerlogo use {
+        transform: translateX(75px) translateY(20px);
+    }
+}
+
+@media screen and (min-width: 975px) and (max-width: 1200px) {
+    .regular_customers {
+        width: 100%;
+        padding: 30px;
+    }
+    .regular_customers__container {
+        width: 100%;
+    }
+    .regular_customers__customer {
+        width: 170px;
+        height: 92px;
+    }
+    .regular_customers__customerlogo  {
+        width: 100%;
+        height: 100%;
+    }
+    .regular_customers__customerlogo use {
+        transform: translateX(55px) translateY(20px);
+    }
+}
+

@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     width: 206px;
-    margin: 72px 0px 100px 0px;
+    margin: 72px 0px 0px 0px;
     gap: 20px;
 }
 
@@ -64,15 +64,15 @@
     letter-spacing: 0.03em;
     color: var(--color-hueso);
     margin: 0px 0px;
-}
+}   
 
 .footpage__social-container {
     width: 206px;
     height: 44px;
     display: flex;
     gap: 10px;
-    align-items: center;
     padding: 0px;
+    margin: 0px;
 }
 
 .footpage__social-media {
@@ -235,6 +235,107 @@
         width: 450px;
         height: 156px;
         justify-content: center;
+        text-align: center;
+
+        .subscription__email-box {
+            display: block;
+            margin: 20px 0px;
+            width: 450px;
+        }
+        .subscription__submit-logo {
+            left: -58px;
+            bottom: -6px;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 975px) {
+    .footpage {
+        width: 100%;;
+        padding: 30px 30px;
+    }
+    .footpage__container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footpage__generalinfo {
+        margin: 0px;
+        width: 220px;
+        height: 155px;
+        #main__logo--footer {
+            font-size: 24px;
+        }
+        .footpage__address,
+        .footpage__contact {
+        line-height: 1.2;
+    }
+    }
+    .footpage__find-us {
+        margin: 0px;
+        text-align: center;
+        width: 140px;
+        height: 145px;
+
+        .footpage__social-container {
+            margin: 0px auto;
+            flex-wrap: wrap;
+            width: 98px;
+            height: 105px;
+            
+        }
+    }
+    .footpage__subscription {
+        margin: 0px;
+        width: 400px;
+        height: 156px;
+        text-align: center;
+
+        .subscription__email-box {
+            display: block;
+            margin: 20px 0px;
+            width: 400px;
+        }
+        .subscription__submit-logo {
+            left: -58px;
+            bottom: -6px;
+        }
+    }
+}
+
+@media screen and (min-width: 975px) and (max-width: 1200px) {
+    .footpage {
+        width: 100%;;
+        padding: 30px 30px;
+    }
+    .footpage__container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footpage__generalinfo {
+        margin: 0px;
+        width: 232px;
+        height: 155px;
+        #main__logo--footer {
+            font-size: 24px;
+        }
+        .footpage__address,
+        .footpage__contact {
+        line-height: none;
+    }
+    }
+    .footpage__find-us {
+        margin: 8px 0px 0px 0px;
+        text-align: center;
+        height: 80px;
+
+        .footpage__social-container {
+            margin: 0px;
+        }
+    }
+    .footpage__subscription {
+        margin: 0px;
+        width: 450px;
+        height: 156px;
         text-align: center;
 
         .subscription__email-box {
