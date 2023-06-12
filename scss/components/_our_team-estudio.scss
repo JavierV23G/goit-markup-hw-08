@@ -136,7 +136,9 @@
 }
 
 @media screen and (min-width: 975px) and (max-width: 1200px) {
-
+    .our_team__container {
+        width: 100%;
+    }
     @media screen and (max-width: 1139px) {
         .our_team {
             width: 100%;
@@ -146,7 +148,7 @@
             width: 100%;
         }
         .our_team__cards {
-            width: 800px;
+            width: 70%;
             margin: 0 auto;
             flex-wrap: wrap;
         }

@@ -1,11 +1,12 @@
 .what_we_do {
-    margin: 0 auto;
+    width: 100%;
 }
 
 .what_we_do__container {
     width: 1200px;
     margin: 0 auto;
 } 
+
 .what_we_do__pictures {
     display: flex;
     margin: 0px;
@@ -39,11 +40,17 @@
     height: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1139px) {
     .what_we_do {
         display: none;
     }
 }
 
-@media screen and )(max-width: 1200px)
-
+@media screen and (min-width: 1139px) and (max-width: 1200px) {
+    .what_we_do__container {
+        width: 100%;
+    }
+    .what_we_do_picture--element {
+        width: 100%;
+    }
+}

@@ -178,3 +178,48 @@ nav {
         align-items: left;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 975px) {
+    .top {
+        width: 100%;
+    }
+    nav {
+        justify-content: space-between;
+        width: 500px;
+    }
+    .top__container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .top__navigation {
+        margin: 0;
+    }
+    .top__contact {
+        margin: 0;
+        width: 320px;
+        justify-content: space-between;
+        gap: 0px;
+        align-items: left;
+    }
+    .contact__celphone--icon {
+        position: relative;
+        align-items: left;
+    }
+}
+
+@media screen and (min-width: 975px) and (max-width: 1200px) {
+    .top {
+        width: 100%;
+    }
+    .top__container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .top__contact {
+        margin: 0;
+        width: 340px;
+        justify-content: space-between;
+        gap: 0px;
+        align-items: left;
+    }
+}

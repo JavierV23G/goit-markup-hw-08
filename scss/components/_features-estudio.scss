@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 975px) {
     .features {
         width: 768px;
     }
@@ -89,5 +89,28 @@
     }
     .features__text--svg use {
      transform: translateX(130px) translateY(20px);
+    }
+}
+
+@media screen and (min-width: 975px) and (max-width: 1200px) {
+    .features__cards {
+        width: 100%;
+    }
+    @media screen and (max-width: 1139px) {
+    .features {
+        width: 100%;
+    }
+    .features__cards {
+        width: 80%;
+        height: 520px;
+        flex-wrap: wrap;
+    }    
+    .features__card {
+        width: 350px;
+        margin:0px;
+    }
+    .features__text--svg use {
+        transform: translateX(140px) translateY(20px);
+       }
     }
 }
