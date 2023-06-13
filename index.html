@@ -22,6 +22,74 @@
           <nav>
             <a class="webstudio" id="main__logo" href="#" target="_blank">WebStudio</a>
 
+            <button class="menu__hamburguer js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+              <svg class="open-hamburger">
+                <use href="./Imagenes/SVG/sprite.svg#hamburguer"></use>
+              </svg>
+            </button>
+
+            <div class="menu__container js-menu-container is-open">
+              <button class="menu__hamburguer--close js-close-menu">
+                <svg class="close-hamburguer">
+                  <use href="./Imagenes/SVG/sprite.svg#close-menu"></use>
+                </svg>
+              </button>
+                <ul class="top__navigation--menu_mobile">
+                  <li>
+                    <a class="navigation__option nav--estudio" href="index.html" target="_self"
+                      >Estudio</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="navigation__option nav--portafolio"
+                      href="portafolio.html"
+                      target="_self"
+                      >Portafolio</a
+                    >
+                  </li>
+                  <li>
+                    <a class="navigation__option nav--contactos" href="#" target="_blank"
+                      >Contactos</a
+                    >
+                  </li>
+                </ul>
+                <ul class="top__contact--menu_mobile">
+                  <li>
+                    <a
+                      href="tel:+525555296000"
+                      class="top__contact--celphone"
+                      target="_self"
+                    >
+                      +52 55 5529 6000
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="top__contact--email"
+                      target="_self"
+                    >
+                      info@devstudio.com
+                    </a>
+                  </li>
+                </ul>
+                <ul class="social__media--menu_mobile">
+                  <li>
+                  <a href="#" class="link--menu_mobile border_right">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#" class="link--menu_mobile border_right">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="#" class="link--menu_mobile border_right">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="#" class="link--menu_mobile">Linkedin</a>
+                  </li>
+                </ul>
+            </div>
+
             <ul class="top__navigation">
               <li>
                 <a class="navigation__option nav--estudio" href="index.html" target="_self"
@@ -538,6 +606,13 @@
         </div>
       </section> 
     </footer>
-    <script src="modal.js"></script>
+    <script src="./JS/modal.js"></script>
+    <script src="./JS/menu.js"></script>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
